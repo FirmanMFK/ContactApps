@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="@integer/colum_count">
+
+        <!--Data Ke-1-->
+        <!--START DATA-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#18c3f2"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_firman" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Firman"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX XXXX"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--END DATA-->
+
+
+        <!--Data Ke-2-->
+        <!--START DATA-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#18f2a9"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="fill_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_suwardana" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suwardana"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX XXXX"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--END DATA-->
+
+
+        <!--Data Ke-3-->
+        <!--START DATA-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#9e6aff"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_sandra" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sandra"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX XXXX"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--END DATA-->
+        <!--Data Ke-2-->
+        <!--START DATA-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#18f259"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_dave" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dave"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX XXXX"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--</LinearLayout>-->
+        <!--END BODY-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#caf218"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_ardi" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ardi"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX XXXX"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--</LinearLayout>-->
+        <!--END BODY-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#f2189e"
+            android:orientation="horizontal"
+            app:layout_columnWeight="1">
+
+            <!--START CONTAIN-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_wanda" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wanda"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08XX XXXX 2XXXX"
+                    android:textColor="#FFFF"
+                    android:textAlignment="center" />
+
+                <!-- START BUTTON-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="SMS" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CALL" />
+
+                </LinearLayout>
+                <!-- END BUTTON-->
+
+            </LinearLayout>
+            <!--END CONTAIN-->
+
+        </LinearLayout>
+        <!--END BODY-->
+    </android.support.v7.widget.GridLayout>
+
+</ScrollView>
